@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>구독 플랜 선택 화면(랜딩페이지)</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+    <div class="container">
+        <h1>Choose a plan that's right for you.</h1>
+        <p style="text-align: center; color: #666;">Downgrade or upgrade at any time</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th class="feature"></th> <!---플랜 및 설명란 --->
+                    <th class="plan deselected" data-plan="basic">Basic</th>
+                    <th class="plan deselected" data-plan="standard">Standard</th>
+                    <th class="plan deselected" data-plan="premium">Premium</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="feature">Monthly price</td>
+                    <td class="deselected">$7.99</td>
+                    <td class="deselected">$10.99</td>
+                    <td class="price deselected">$13.99</td>
+                </tr>
+                <tr>
+                    <td class="feature">HD available</td>
+                    <td class="deselected">✖</td>
+                    <td class="check deselected">✔</td>
+                    <td class="check deselected">✔</td>
+                </tr>
+                <tr>
+                    <td class="feature">Ultra HD available</td>
+                    <td class="deselected">✖</td>
+                    <td class="deselected">✖</td>
+                    <td class="check deselected">✔</td>
+                </tr>
+                <tr>
+                    <td class="feature">Screens you can watch on at the same time</td>
+                    <td class="deselected">1</td>
+                    <td class="deselected">2</td>
+                    <td class="deselected">4</td>
+                </tr>
+                <tr>
+                    <td class="feature">Watch on your laptop, TV, phone and tablet</td>
+                    <td class="check deselected">✔</td>
+                    <td class="check deselected">✔</td>
+                    <td class="check deselected">✔</td>
+                </tr>
+                <tr>
+                    <td class="feature">Unlimited movies and TV shows</td>
+                    <td class="check deselected">✔</td>
+                    <td class="check deselected">✔</td>
+                    <td class="check deselected">✔</td>
+                </tr>
+                <tr>
+                    <td class="feature">Cancel anytime</td>
+                    <td class="check deselected">✔</td>
+                    <td class="check deselected">✔</td>
+                    <td class="check deselected">✔</td>
+                </tr>
+                <tr>
+                    <td class="feature">First month free</td>
+                    <td class="check deselected">✔</td>
+                    <td class="check deselected">✔</td>
+                    <td class="check deselected">✔</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="cta-container">
+            <a href="#subscribe" class="cta-button">구독하기</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

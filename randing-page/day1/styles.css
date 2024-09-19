@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  max-width: 1000px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  transition: color 0.3s ease; 
+}
+
+th {
+  background-color: #f4f4f4;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+td {
+  font-size: 1rem;
+  color: black; 
+}
+
+.price {
+  color: red;
+  font-size: 1.2rem;
+}
+
+.check {
+  color: red;
+  font-size: 1.5rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #ff4d4d;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #cc0000;
+}
+
+
+.highlight-column {
+  border: 2px solid red;
+  background-color: #ffe5e5;
+}
+
+.highlight-column, .highlight-column th, .highlight-column td {
+  transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+.cta-container {
+  text-align: center;
+}
+
+
+.feature {
+  text-align: left;
+  background-color: #f4f4f4;
+  font-weight: bold;
+  transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+
+.selected-column {
+  color: red; 
+}
+
+
+.deselected {
+  color: black;
+}
