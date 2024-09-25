@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>네이버 - NAVER</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+    <div class="container">
+        <div class="app-header">
+            <img src="naver-icon.png" alt="네이버 앱 아이콘" class="app-icon"> 
+            <h1>네이버 - NAVER</h1>
+            <div class="rating">
+                <span id="current-rating">평점 3.7 ★</span> | 리뷰 56만개 | 1억+ 다운로드
+            </div>
+        </div>
+
+        <div class="button-group">
+            <a href="#" class="button">다른 기기에 설치</a>
+            <a href="#" class="button install-button">앱 설치</a>
+        </div>
+
+        <div class="carousel-container">
+            <div class="carousel">
+                <img src="https://via.placeholder.com/600x300.png?text=앱+스크린샷+1" alt="앱 스크린샷 1" class="carousel-image">
+                <img src="https://via.placeholder.com/600x300.png?text=앱+스크린샷+2" alt="앱 스크린샷 2" class="carousel-image">
+                <img src="https://via.placeholder.com/600x300.png?text=앱+스크린샷+3" alt="앱 스크린샷 3" class="carousel-image">
+                <img src="https://via.placeholder.com/600x300.png?text=앱+스크린샷+4" alt="앱 스크린샷 4" class="carousel-image">
+            </div>
+            <button class="carousel-control prev">❮</button>
+            <button class="carousel-control next">❯</button>
+        </div>
+
+        <div class="app-info">
+            <h3>앱 정보</h3>
+            <p>네이버앱은 다양한 콘텐츠 유형에 따라 4개의 공간을 제공합니다. 매일 확인하는 정보는 ‘홈’, 짧고 빠르게 즐기는 숏폼은 ‘클립’, 뉴스와 각종 읽을거리는 '콘텐츠', 내 취향에 맞춘 스마트한 쇼핑이 필요할 땐 '쇼핑탭'을 이용해 보세요.</p>
+            <p>업데이트 날짜: 2024. 9. 6.</p>
+        </div>
+
+        <div class="rating-bar">
+            <span>평점 3.6</span>
+            <div class="bar">
+                <div id="rating-fill"></div>
+            </div>
+        </div>
+
+        <div class="user-rating-section">
+            <h3>평점을 주세요:</h3>
+            <div class="star-rating">
+                <span class="star" data-value="1">★</span>
+                <span class="star" data-value="2">★</span>
+                <span class="star" data-value="3">★</span>
+                <span class="star" data-value="4">★</span>
+                <span class="star" data-value="5">★</span>
+            </div>
+            <p>현재 선택한 평점: <span id="selected-rating">0</span> ★</p>
+        </div>
+
+        <div class="review-section">
+            <h3>리뷰</h3>
+
+            <div class="review-form">
+                <textarea id="review-text" placeholder="리뷰를 작성해 주세요..." rows="3"></textarea>
+                <button id="submit-review" class="button">리뷰 작성</button>
+            </div>
+
+            <div id="review-list" class="review-list">
+                <div class="review">
+                    <p><strong>사용자1:</strong> 매우 유용한 앱입니다! 자주 사용해요.</p>
+                </div>
+                <div class="review">
+                    <p><strong>사용자2:</strong> 가끔 버벅이지만 전반적으로 만족합니다.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Google LLC</p>
+    </footer>
+
+    <script src="script.js"></script> 
+</body>
+</html>
