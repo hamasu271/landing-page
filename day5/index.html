@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- CSS 파일 링크 -->
+</head>
+<body>
+
+    <!-- 상단 네비게이션 -->
+    <div class="navbar">
+        <div class="logo">DOLLAR SHAVE CLUB</div>
+        <div class="menu">
+            <a href="#">Shave</a>
+            <a href="#">Shower & Body</a>
+            <a href="#">Rewards</a>
+            <a href="#">Find Your Perfect Shave</a>
+            <a href="#">Sign In</a>
+            <a href="#">Cart (0)</a>
+        </div>
+    </div>
+
+    <!-- 배너 섹션 -->
+    <div class="banner">
+        SMOOTH SHAVES START HERE
+        <br>
+        <a href="#" class="cta-button">GET MY $5 STARTER SET</a>
+    </div>
+
+    <!-- 제품 묶음 섹션 -->
+    <div class="bundle">
+        <h2>BUNDLE & SAVE</h2>
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-item">
+                    <img src="image-3-url" alt="Member Favorites Kit">
+                    <h3>Member Favorites Kit</h3>
+                    <p>$21.00</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="image-3-url" alt="Hydrating Shower Kit">
+                    <h3>Hydrating Shower Kit</h3>
+                    <p>$22.00</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="image-3-url" alt="Body Buffer Kit">
+                    <h3>Body Buffer Kit</h3>
+                    <p>$16.00</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="image-3-url" alt="Gym Kit">
+                    <h3>Gym Kit</h3>
+                    <p>$39.00</p>
+                </div>
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+    </div>
+
+    <!-- 비교 섹션 -->
+    <div class="comparison">
+        <h2>HERE'S HOW WE STACK UP</h2>
+        <div class="comparison-table">
+            <div class="option">
+                <h3>6 Blade: $10</h3>
+                <p>Save $8!</p>
+            </div>
+            <div class="option">
+                <h3>4 Blade: $8.50</h3>
+                <p>Save $9.50!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 뉴스레터 섹션 -->
+    <div class="newsletter">
+        <h2>Join our Newsletter</h2>
+        <p>Sign up to receive access to our latest updates and best offers, plus get 25% off your first order.</p>
+        <input type="email" id="email" placeholder="Email">
+        <button id="subscribe">LET'S DO IT</button>
+    </div>
+
+    <!-- 푸터 -->
+    <div class="footer">
+        <p>&copy; 2024, Dollar Shave Club. All Rights Reserved.</p>
+        <div>
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Terms of Service</a> |
+            <a href="#">Contact Us</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- JS 파일 링크 -->
+</body>
+</html>

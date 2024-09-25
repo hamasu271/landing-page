@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* 상단 네비게이션 */
+.navbar {
+  background-color: #1a2b47;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar a {
+  color: #fff; 
+  text-decoration: none;
+  margin: 0 10px;
+}
+.navbar .logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff; 
+}
+.navbar .menu {
+  display: flex;
+}
+.navbar .menu a {
+  margin-left: 20px;
+}
+
+/* 배너 섹션 */
+.banner {
+  background-image: url('image-2-url'); 
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 20px;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+}
+.banner .cta-button {
+  margin-top: 20px;
+  background-color: #ff6500;
+  padding: 15px 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* 제품 묶음 섹션 */
+.bundle {
+  padding: 50px 20px;
+  text-align: center;
+}
+.bundle h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+.bundle .products {
+  display: flex;
+  justify-content: space-around;
+}
+.product {
+  width: 200px;
+  text-align: center;
+}
+.product img {
+  width: 100%;
+  height: auto;
+}
+.product h3 {
+  font-size: 18px;
+}
+.product p {
+  margin: 10px 0;
+}
+
+/* 비교 섹션 */
+.comparison {
+  padding: 50px 20px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+.comparison h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+.comparison .comparison-table {
+  display: flex;
+  justify-content: center;
+}
+.comparison .option {
+  width: 250px;
+  padding: 20px;
+  background-color: white;
+  margin: 0 10px;
+  border: 1px solid #ddd;
+}
+.option h3 {
+  font-size: 22px;
+  color: #ff6500;
+}
+.option p {
+  margin: 10px 0;
+}
+.option .price {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* 뉴스레터 */
+.newsletter {
+  background-color: #1a2b47;
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
+}
+.newsletter input {
+  padding: 10px;
+  width: 300px;
+}
+.newsletter button {
+  padding: 10px 20px;
+  background-color: #ff6500;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* 푸터 */
+.footer {
+  background-color: #1a2b47;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.footer a {
+  color: white;
+  margin: 0 10px;
+}
+
+/* 캐러셀 */
+.carousel-container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 400%;
+}
+
+.carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
